@@ -15,7 +15,7 @@
  *
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
- *
+ * Plugin Name Book/Video Library
  * @package    Lib_upload
  * @subpackage Lib_upload/admin
  * @author     Krupal Lakhia <krupaly2k@gmail.com>

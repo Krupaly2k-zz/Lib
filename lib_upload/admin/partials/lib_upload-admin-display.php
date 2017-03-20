@@ -22,15 +22,12 @@
 $tt = 'Edit Library';
 $button_title = 'Edit Library';
 }
-else if($_REQUEST['action'] == 'add')
+else
 {
 	$tt = 'Add New Library';
 	$button_title = 'Add Library';
 }
-else{
-	$tt = 'Delete Library';	
-	$button_title = 'Delete Library';
-}
+
 ?>
     <h2><?php _e( $tt, $this->plugin_name ); ?></h2>
     <p>

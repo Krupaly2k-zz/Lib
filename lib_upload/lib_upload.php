@@ -11,12 +11,11 @@
  * @link              https://github.com/krupaly2k
  * @since             1.0.0
  * @package           Lib_upload
- *
  * @wordpress-plugin
- * Plugin Name:       Library
- * Plugin URI:        lib_upload
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
- * Version:           1.0.0
+ * Plugin Name:       Book/Video Library
+ * Plugin URI:        https://github.com/Krupaly2k/Lib/tree/master/lib_upload
+ * Description:       Upload Books/Videos from admin side and it will appear on front end with the use of shortcode.
+ * Version:           1.0
  * Author:            Krupal Lakhia
  * Author URI:        https://github.com/krupaly2k
  * License:           GPL-2.0+
