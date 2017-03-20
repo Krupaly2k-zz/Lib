@@ -69,7 +69,7 @@ class Lib_upload_Activator {
 		 . "coverfile text NULL,"
          . "file text NULL, "
 		 . "category varchar(20) NOT NULL, "
-         . "author varchar(50) NOT NULL, "
+         . "author varchar(50) NULL, "
 		 . "description text NULL, "
          . "created_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL, "
          . "updated_at datetime DEFAULT '0000-00-00 00:00:00' NOT NULL, "
