@@ -153,27 +153,27 @@ public function add_upload_menu_page() {
         __( 'Library', $this->plugin_name ),
         __( 'Library', $this->plugin_name ),
         'edit_posts',
-        'wp-licenses',
+        'wp-lib',
         array( $this, 'render_upload_menu_list' ),
         'dashicons-media-video',
         '26.1'
     );
  
     add_submenu_page(
-        'wp-licenses',
+        'wp-lib',
         __( 'Library', $this->plugin_name ),
         __( 'Library', $this->plugin_name ),
         'edit_posts',
-        'wp-licenses',
+        'wp-lib',
         array( $this, 'render_upload_menu_list' )
     );
  
     add_submenu_page(
-        'wp-licenses',
+        'wp-lib',
         __( 'Add new', $this->plugin_name ),
         __( 'Add new', $this->plugin_name ),
         'edit_posts',
-        'wp-licenses-new',
+        'wp-lib-new',
         array( $this, 'render_upload_menu_new' )
     );
 }
@@ -364,7 +364,7 @@ if ($uploadOk1 == 0) {
         );
  
         // Redirect to the list of licenses for displaying the new license
-        wp_redirect( admin_url( 'admin.php?page=wp-licenses&msg=add' ) );
+        wp_redirect( admin_url( 'admin.php?page=wp-lib&msg=add' ) );
 		
     }
 }
@@ -523,7 +523,7 @@ if ($uploadOk1 == 0) {
         );
  
         // Redirect to the list of licenses for displaying the new license
-        wp_redirect( admin_url( 'admin.php?page=wp-licenses&msg=edit' ) );
+        wp_redirect( admin_url( 'admin.php?page=wp-lib&msg=edit' ) );
 		
     }
 }
@@ -624,7 +624,7 @@ if ($uploadOk == 0) {
         );
  
         // Redirect to the list of licenses for displaying the new license
-        wp_redirect( admin_url( 'admin.php?page=wp-licenses' ) );
+        wp_redirect( admin_url( 'admin.php?page=wp-lib' ) );
     }
 }
 

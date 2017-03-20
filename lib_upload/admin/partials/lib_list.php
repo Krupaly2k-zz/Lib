@@ -11,7 +11,7 @@
 <div class="wrap">
     <h2>
         <?php _e( 'Library', $this->plugin_name ); ?>
-        <a class="add-new-h2" href="<?php echo admin_url( 'admin.php?page=wp-licenses-new' );?>">
+        <a class="add-new-h2" href="<?php echo admin_url( 'admin.php?page=wp-lib-new' );?>">
             <?php _e( 'Add new', $this->plugin_name ) ?>
         </a>
     </h2>

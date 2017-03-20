@@ -160,7 +160,7 @@ function column_title($item) {
  
 
  $actions = array(
-            'edit'      => sprintf('<a href="?page=%s&action=%s&book=%s">Edit</a>','wp-licenses-new','edit',$item['id']),
+            'edit'      => sprintf('<a href="?page=%s&action=%s&book=%s">Edit</a>','wp-lib-new','edit',$item['id']),
                 'delete' => sprintf( '<a href="?page=%s&action=%s&book=%s&_wpnonce=%s">Delete</a>', esc_attr( $_REQUEST['page'] ), 'delete', absint( $item['id'] ), $delete_nonce )
 
         );
@@ -224,7 +224,7 @@ global $wpdb;
 			
 			$wpdb->delete( 'wp_lib', array( 'id' => $id ), array( '%d' ) );
 		}
-	wp_redirect( admin_url( 'admin.php?page=wp-licenses&msg=delete' ) );  
+	wp_redirect( admin_url( 'admin.php?page=wp-lib&msg=delete' ) );  
 	exit;
 	}
 		
